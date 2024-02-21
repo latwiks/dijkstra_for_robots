@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 class Graph(object):
-    """конструктор класса, принимает координаты вершин и связи между ними, инициализирует атрибуты класса."""
+    """Конструктор класса, принимает координаты вершин и связи между ними, инициализирует атрибуты класса."""
 
     def __init__(self, coordinates: [(int | float, int | float)],
                  connections: {(int | float, int | float): [(int | float, int | float)]}):
