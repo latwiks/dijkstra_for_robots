@@ -95,7 +95,7 @@ graph.draw_graph(shortest_path)
 ```python
 """Пример использования"""
 # импорт самого класса
-from dijkstra_for_robots import Graph
+from main import Graph
 # сами координаты
 coordinates = [
     (1, 1.5),
