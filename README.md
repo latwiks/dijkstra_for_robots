@@ -14,7 +14,7 @@
 Для использования этого кода вам нужно импортировать класс Graph из файла dijkstra_for_robots.py:
 
 ```python
-from dijkstra_for_robots import Graph
+from main import Graph
 ```
 
 Затем вам нужно создать объект класса Graph, передав ему координаты вершин и связи между ними в виде списков кортежей:
