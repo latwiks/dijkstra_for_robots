@@ -9,6 +9,7 @@
 - NetworkX: `pip install networkx`
 - Matplotlib: `pip install matplotlib`
 
+p.s. вы также можете установить все сразу - `pip install dijkstra-for-robots`, если вы это сделаете, можете переходить к [концу](#primer)
 ## Использование
 
 Для использования этого кода вам нужно импортировать класс Graph из файла main.py:
@@ -153,3 +154,5 @@ print(graph.value((1, 1.5), (4, 1.5)))
 print(graph.get_nodes())
 print(graph.construct_graph())
 ```
+## Пример для PyPi
+<a name="primer"></a>
